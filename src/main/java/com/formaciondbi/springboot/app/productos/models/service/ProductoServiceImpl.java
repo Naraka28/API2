@@ -1,0 +1,21 @@
+package com.formaciondbi.springboot.app.productos.models.service;
+
+import java.util.List;
+
+import com.formaciondbi.springboot.app.productos.models.entity.Producto;
+
+public class ProductoServiceImpl implements IProductoService{
+
+	@Override
+	public List<Producto> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Producto findBy(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
