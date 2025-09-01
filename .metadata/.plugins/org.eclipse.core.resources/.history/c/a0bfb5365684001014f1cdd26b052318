@@ -1,0 +1,6 @@
+package com.formaciondbi.springboot.app.item.clientes;
+
+@FeignClient(name = "servicio-productos", url="localhost:8001")
+public interface ProductoClienteRest {
+
+}

@@ -1,0 +1,22 @@
+package com.formaciondbi.springboot.app.item.models.service;
+
+import java.util.List;
+
+import com.formaciondbi.springboot.app.item.models.Item;
+import com.formaciondbi.springboot.app.item.models.ItemService;
+
+public class ItemServiceFeign implements ItemService {
+
+	@Override
+	public List<Item> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Item FindById(Long id, Integer cantidad) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
